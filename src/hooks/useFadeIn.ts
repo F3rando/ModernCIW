@@ -2,8 +2,8 @@
 
 import { useEffect, useRef, RefObject } from 'react'
 
-export function useFadeIn<T extends HTMLElement = HTMLElement>(): RefObject<T> {
-  const ref = useRef<T>(null)
+export function useFadeIn<T extends HTMLElement = HTMLElement>(): RefObject<T | null> {
+  const ref = useRef<T | null>(null)
 
   useEffect(() => {
     const element = ref.current
