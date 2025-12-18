@@ -8,8 +8,12 @@ export const metadata: Metadata = {
   title: 'Corona Custom Iron Works',
   description: 'Family-founded, family-owned and operated since 1999. Crafting gates, doors, and metalwork built to last.',
   icons: {
-    icon: '/logo_corona.png',
-    apple: '/logo_corona.png',
+    icon: [
+      { url: '/logo_corona.png', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/logo_corona.png', type: 'image/png' },
+    ],
   },
   openGraph: {
     title: 'Corona Custom Iron Works',
