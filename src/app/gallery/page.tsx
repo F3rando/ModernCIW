@@ -11,6 +11,10 @@ export default function Gallery() {
       <h1>Inspiration Gallery</h1>
 
       <div className="gallery-grid">
+        <Image src="/gate13.jpg" alt="Gate 13" width={800} height={800} quality={100} />
+        <Image src="/gate14.jpg" alt="Gate 14" width={800} height={800} quality={100} />
+        <Image src="/gate15.jpg" alt="Gate 15" width={800} height={800} quality={100} />
+        <Image src="/gate16.jpg" alt="Gate 16" width={800} height={800} quality={100} />
         <Image src="/balcony1.jpg" alt="Balcony Ironwork" width={800} height={800} quality={100} />
         <Image src="/gate1.jpg" alt="Gate 1" width={800} height={800} quality={100} />
         <Image src="/gate2.jpg" alt="Gate 2" width={800} height={800} quality={100} />
